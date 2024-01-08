@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+            animation: mymove infinite;
+            animation-duration: 15s;
+            animation-delay: 5s;
+
+        }
+        @keyframes mymove{
+            0%{top:25px; background-color: blue;}
+            25%{left: 50px;background-color: yellow;}
+            50%{top: 100px; background-color: aqua; }
+            100%{top: 200px; background-color: brown;}
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    
+</body>
+</html>
